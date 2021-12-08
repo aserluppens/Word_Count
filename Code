@@ -1,0 +1,7 @@
+line = input()
+
+#Since I'm counting the number of white spaces, I needed to put 1 extra white space because there's no space in front of the first word of the line
+
+total_words = line.count(' ')+1
+
+print(total_words)
